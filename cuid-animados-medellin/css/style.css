@@ -66,12 +66,14 @@ section.red #img6{height:40%; left:125px;}
     section.red .group2{ height:130px;}
 
     #testimony .content{font-size: 15px;}
-    #testimony .image{background:#000 center center/cover no-repeat;}
+    #testimony .image{background:#000 center top/cover no-repeat;}
 }
 
 @media screen and (max-width:360px), screen and (max-device-width:360px){
+    /*
     section .content{font-size:15px;}
     section .content strong{font-size: 20px;}
+    */
     section .button{font-size: 12px;}
 
     section.red .content,
