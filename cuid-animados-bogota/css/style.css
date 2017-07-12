@@ -48,7 +48,7 @@ section.red #img6{height:40%; left:125px;}
 #testimony .testimonials .testimony{position:relative; display:none;}
 #testimony .testimonials .testimony.select{opacity:1; visibility:visible; display:block;}
 /*NEW*/
-#testimony .image{background:#000 center top/contain no-repeat;}
+#testimony .image{background:#000 center center/contain no-repeat;}
 
 @media screen and (max-width:768px), screen and (max-device-width:768px){}
 @media screen and (max-width:480px), screen and (max-device-width:480px){
@@ -65,6 +65,7 @@ section.red #img6{height:40%; left:125px;}
     section.red .group2{ height:130px;}
 
     #testimony .content{font-size: 15px;}
+    #testimony .image{background:#000 center center/cover no-repeat;}
 }
 
 @media screen and (max-width:360px), screen and (max-device-width:360px){
