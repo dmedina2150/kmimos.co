@@ -47,6 +47,8 @@ section.red #img6{height:40%; left:125px;}
 #testimony .testimonials{position:relative; margin:0 50px;}
 #testimony .testimonials .testimony{position:relative; display:none;}
 #testimony .testimonials .testimony.select{opacity:1; visibility:visible; display:block;}
+/*NEW*/
+#testimony .image{background:#000 center top/contain no-repeat;}
 
 
 @media screen and (max-width:768px), screen and (max-device-width:768px){}
