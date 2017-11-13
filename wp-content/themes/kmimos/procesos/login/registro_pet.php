@@ -20,7 +20,7 @@
             // Pets - Photo
             $photo_pet = "";
             if( $img_pet != "" ){
-                $tmp_user_id = ($userid) - 5000;
+                $tmp_user_id = ($userid);
 
                 if( !is_dir(realpath( "../../../../" )."/uploads/mypet/") ){
                     mkdir(realpath( "../../../../" )."/uploads/mypet/");

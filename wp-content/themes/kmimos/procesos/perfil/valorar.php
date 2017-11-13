@@ -1,6 +1,6 @@
 <?php
 
-    date_default_timezone_set('America/Mexico_City');
+    date_default_timezone_set('America/Bogota');
     $hoy = date("Y-m-d H:i:s");
 
     $email = $db->get_var("SELECT user_email FROM wp_users WHERE ID = {$user_id}");

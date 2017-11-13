@@ -3,7 +3,7 @@
 	    include(realpath("../../../../../vlz_config.php"));
 	    include(realpath("../../../../../wp-load.php"));
 
-    	date_default_timezone_set('America/Mexico_City');
+    	date_default_timezone_set('America/Bogota');
 
 	    extract($_POST);
 

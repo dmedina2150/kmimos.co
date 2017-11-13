@@ -3,7 +3,7 @@
 
 	include_once($raiz."/wp-load.php");
 
-	date_default_timezone_set('America/Mexico_City');
+	date_default_timezone_set('America/Bogota');
 
 	if( !isset($_SESSION)){ session_start(); }
 

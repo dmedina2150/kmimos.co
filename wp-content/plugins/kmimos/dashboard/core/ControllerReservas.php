@@ -65,13 +65,15 @@ function get_status($sts_reserva, $sts_pedido, $forma_pago="", $id_reserva){
 	// BEGIN PaymentMethod
 	// Nota: Agregar la equivalencia de estatus de las pasarelas de pago
 	//===============================================================
-	$payment_method_cards = [ // pagos por TDC / TDD
-		'openpay_cards'
-		'tarjeta',
+	// pagos por TDC / TDD
+	$payment_method_cards = [ 
+		"openpay_cards",
+		"tarjeta",
 	]; 
-	$payment_method_store = [ // pagos por Tienda por conveniencia
-		'openpay_stores',
-		'tienda',
+	// pagos por Tienda por conveniencia
+	$payment_method_store = [ 
+		"openpay_stores",
+		"tienda",
 	]; 
 	//===============================================================
 	// END PaymentMethod

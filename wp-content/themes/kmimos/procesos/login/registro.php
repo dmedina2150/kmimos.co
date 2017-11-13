@@ -7,7 +7,7 @@
 
     $db = new db( new mysqli($host, $user, $pass, $db) );
     
-    date_default_timezone_set('America/Mexico_City');
+    date_default_timezone_set('America/Bogota');
     extract($_POST);
 
     if( preg_match("/[\+]{1,}/", $email) || !filter_var($email, FILTER_VALIDATE_EMAIL) ){

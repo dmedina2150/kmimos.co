@@ -18,7 +18,7 @@
 
     print_r($_GET);
     print_r($_POST);
-    date_default_timezone_set('America/Mexico_City');
+    date_default_timezone_set('America/Bogota');
 
 
 ?>

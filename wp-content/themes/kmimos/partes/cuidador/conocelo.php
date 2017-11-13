@@ -3,7 +3,7 @@
 	wp_enqueue_script('conocer_al_cuidador_js', getTema()."/js/conocer_al_cuidador.js", array("jquery"), '1.0.0');
 
 global $current_user;
-date_default_timezone_set('America/Mexico_City');
+date_default_timezone_set('America/Bogota');
 $user_id = $current_user->ID;
 $user_email = $current_user->user_email;
 $mascotas = kmimos_get_my_pets($user_id);

@@ -5,7 +5,7 @@
     include("../funciones/db.php");
     include("../funciones/generales.php");
 
-    date_default_timezone_set('America/Mexico_City');
+    date_default_timezone_set('America/Bogota');
     $conn = new mysqli($host, $user, $pass, $db);
     $db = new db($conn);
     $errores = array();
@@ -14,6 +14,8 @@
     }
     extract($_POST);
 
+
+    $msg = '';
     $email = $rc_email;
     $estado = $rc_estado;
     $municipio = $rc_municipio;
@@ -103,8 +105,7 @@
             }else{
                 $error = array(
                     "error" => "SI",
-                    "msg" => $msg,
-                    "fields" => $fields,
+                    "msg" => 'Cuidador no encontrado'
                 );
             }
             echo "(".json_encode( $error ).")";

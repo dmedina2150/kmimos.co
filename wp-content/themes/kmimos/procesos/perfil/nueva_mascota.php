@@ -1,6 +1,6 @@
 <?php 
 
-    date_default_timezone_set('America/Mexico_City');
+    date_default_timezone_set('America/Bogota');
     $hoy = date("Y-m-d H:i:s");
 
 	$slug = time();
@@ -9,7 +9,7 @@
 	$pet_id = $db->insert_id();
 
 	if($portada != ""){
-		$tmp_user_id = ($user_id) - 5000;
+		$tmp_user_id = ($user_id);
 	    $sub_path = "/wp-content/uploads/mypet/{$tmp_user_id}/";
 	    $dir = $raiz.$sub_path;
 	    @mkdir($dir);
